@@ -29,14 +29,25 @@ a:hover {
     text-decoration: underline;
     
 }
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
 section.normal {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 section.imagem {
-    background-color: rgb(46, 44, 44);
+    background-color: rgba(0, 0, 0, 0.39);
     color: white;
+
+}
+section.imagem > p {
+  background-color: rgba(0, 0, 0, 0.39); 
+  width: 400px; 
 }
 
 footer {
