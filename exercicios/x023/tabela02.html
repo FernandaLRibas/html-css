@@ -4,9 +4,273 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+        width: 500px;  
+        border-collapse: collapse;  
+        position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: rgb(78, 76, 76);
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px; 
+            background-color: rgb(78, 76, 76) ;
+        }
+        .num {
+         text-align: right;   
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold ;
+            padding: 10px;
+            background-color: rgb(185, 181, 181);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>Uso das tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+          <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width:50px;">População</th>
+        </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+            <td>São Paulo</td>
+            <td class="num">46 649 132	</td>
+          </tr>
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">19 597 330</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">15 989 929</td>
+          </tr>
+           <tr>
+            <td>Bahia</td>
+            <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+            <td >Paraná</td>
+            <td class="num">10 444 526</td>
+           </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>106 697 823</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis excepturi autem non quod animi? Totam eum ab voluptas natus maiores sint, cupiditate deleniti aperiam suscipit, consequatur voluptates, adipisci dolor? Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae porro culpa perferendis quibusdam necessitatibus, vero ullam facilis! Debitis reprehenderit impedit neque voluptates magni. Similique, impedit cum aliquam recusandae ipsa culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat itaque maxime praesentium esse a, autem totam ab sapiente rem laboriosam culpa recusandae at odio asperiores architecto voluptate quos maiores sequi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, placeat consequatur! Quae harum hic, molestiae ipsa, doloremque ea aliquam ducimus vel qui nobis deserunt voluptates, officia tempora voluptatum asperiores deleniti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nisi incidunt veritatis ut enim labore aliquam harum minima culpa. Voluptatum sit, laboriosam dolorem suscipit ab fugiat ducimus ad facere dolores?</p>
 </body>
 </html>
